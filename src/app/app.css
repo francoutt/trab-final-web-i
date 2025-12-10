@@ -1,0 +1,16 @@
+:host {
+    display: block;
+    max-width: 1000px;
+    margin: 20px auto;
+  }
+  
+  .main-content {
+    padding: 20px;
+    background: #fff;
+  }
+  
+  .product-list {
+    display: flex;
+    gap: 20px;
+  }
+  
