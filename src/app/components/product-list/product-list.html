@@ -1,11 +1,9 @@
-<!-- 
-  TODO: Aluno
-
-  1. Use a diretiva *ngFor para iterar sobre a lista de 'products' que você criou no arquivo .ts.
-
-  2. Para cada 'product' na lista, renderize um componente <app-product-item>.
-
-  3. Passe os dados de cada produto (id, name, price, imageUrl) para o componente <app-product-item> 
-     usando property binding. 
-     Ex: [name]="product.name"
--->
+<div class="product-list">
+  <app-product-item
+    *ngFor="let product of products"
+    [id]="product.id"
+    [name]="product.name"
+    [price]="product.price"
+    [imageUrl]="product.imageUrl">
+  </app-product-item>
+</div>

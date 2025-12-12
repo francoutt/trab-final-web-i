@@ -10,9 +10,26 @@ import { NgFor } from '@angular/common';
   styleUrl: './product-list.css'
 })
 export class ProductList {
-  // TODO: Aluno
-  // 1. Crie uma lista (array) de produtos.
-  //    Cada produto deve ter: id, name, price, e imageUrl.
-  //    Ex: { id: 1, name: 'Nome do Produto', price: 99.99, imageUrl: 'url_d-imagem' }
-  products = [];
+
+  products = [
+    {
+      id: 1,
+      name: 'Notebook',
+      price: 3500,
+      imageUrl: 'img/produto1.jpg'
+    },
+    {
+      id: 2,
+      name: 'Mouse Gamer',
+      price: 150,
+      imageUrl: 'img/produto2.jpg'
+    },
+    {
+      id: 3,
+      name: 'Teclado Mecânico',
+      price: 450,
+      imageUrl: 'img/produto3.jpg'
+    }
+  ];
+
 }
